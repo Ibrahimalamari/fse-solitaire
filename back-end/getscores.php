@@ -1,6 +1,5 @@
 <?php
 include('config.php');
-header('Content-Type: application/json');
 
 $sql="SELECT * FROM scores ORDER BY score DESC, duration ASC LIMIT 5";
 $query=$mysql->prepare($sql);

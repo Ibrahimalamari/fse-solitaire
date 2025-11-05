@@ -1,14 +1,10 @@
-
-
-let tableBody =document.querySelector(".tb tbody"); // make sure your table has <tbody>
+let tableBody = document.querySelector(".tb tbody"); // target tbody
 
 axios.get("../back-end/getscores.php")
   .then(response => {
-    const scores = response.data; 
+    const scores = response.data;
 
-   
-
-     
+    tableBody.innerHTML = ""; // clear old rows
 
     scores.forEach(score => {
       let tr = document.createElement("tr");
@@ -25,12 +21,7 @@ axios.get("../back-end/getscores.php")
       tdDuration.textContent = score.duration;
       tr.appendChild(tdDuration);
 
-      tableBody.appendChild(tr);
+      tableBody.appendChild(tr); // append to tbody, not table
     });
   })
- 
-
-
-
- 
-
+  .catch(error => console.error("Error fetching scores:", error));
