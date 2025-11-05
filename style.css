@@ -1,0 +1,404 @@
+.hero{
+  background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),  
+    url('imageback.png');
+  background-size: cover;        
+  height: 100vh;                
+}
+
+.navbar{
+  display: flex;
+  padding: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 7vh;
+}
+
+.menu{
+  float: right;
+  width: 50%;
+  margin: 10px;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.menu a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-weight: bold;
+  margin: 7px;
+  padding: 12px;
+  color: #131212;
+  text-decoration: underline;
+  transition:color 0.9s ease; 
+}
+
+.menu a:hover{
+  background-color: rgb(30, 57, 58);
+  color: white;
+}
+
+.logo{
+  width:50%;
+  margin-top: -25px;
+}
+
+.logo img{
+  width: 55%;
+  height: 140px;
+  cursor: pointer;
+}
+
+.welcome{
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.welcome h1,h2,h3{
+  padding: 20px;
+  margin: 10px;
+}
+
+span{
+  color: #02584b;
+  font-weight: bold;
+}
+
+.welcome a{
+  color: black;
+}
+
+.introduction {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.hr-solitaire{
+  border-top: 2px solidrgb(30, 57, 58);
+}
+
+.introduction .description{
+  width: 50%;
+}
+
+.description p{
+  font-size: 20px;
+}
+
+.description a{
+  text-align: center;
+  text-decoration: none;
+  padding: 30px;
+  margin: 30px;
+}
+
+.links{
+  padding: 10px;
+  margin: 10px;
+}
+
+.links p{
+  font-size: large;
+  font-weight:large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.links img{
+  width: 150px;
+}
+
+.scores{
+   margin: 20px;
+  padding: 20px;
+}
+
+.leaderboard h1{
+  margin-left: 140px;
+  
+
+ 
+}
+
+.leaderboard table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+ border-top: 4px solid rgb(171, 224, 171);
+  background: white;
+  
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard th, .leaderboard td {
+  padding: 15px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.leaderboard th {
+  background: #03532b;
+  color: white;
+}
+
+.leaderboard tr:hover {
+  background: #f1f1f1;
+}
+.leaderboard td{
+  color: black;
+  text-align: center;
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: none;
+  background-color: rgb(225, 225, 225);
+}
+.add-score{
+  padding: 50px;
+   margin: 0 auto;
+   width: 80%;
+}
+.add-score button {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  width: 15%;
+  height: 7vh;
+  background-color:  #03532b;
+  border-radius: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+  
+}
+.add-score  a{
+
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.add-score button:hover{
+  background-color: rgb(225, 225, 225);
+  color: black;
+}
+.benefits-title{
+  margin-bottom: 0px;
+  margin-left: 165px;
+}
+.benefits-container{
+   margin: 0 auto;
+  width: 78%;
+  display: flex;
+  align-items: center;
+  border-top: 4px solid green;
+  
+  background-color: #a2aebb;
+
+  
+
+}
+.benefit {
+  width: 23%;
+  height: 16vh;
+  border: 2px solid white;
+  padding: 20px;
+  
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #48494b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer hr {
+ align-items: center;
+  border: 0;
+  border-top: 1px solid #000000;
+  width: 80%;
+}
+ .name-form {
+  margin-left: 500px;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 4px solid gray;
+  background-color: white;
+  
+  
+  
+}
+.name-form:hover{
+  width: 450px;
+  height: 350px;
+  font-size:20px ;
+}
+.name-form h2{
+  background-color: gray;
+  border-radius: 10px;
+  height: 15px;
+  text-align: center;
+  
+}
+
+.name-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.name-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #03532b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.name-form button:hover {
+  background-color: #02584b;
+}
+
+@media (max-width: 1024px) {
+  .welcome {
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .logo img {
+    width: 70%;
+    height: auto;
+  }
+
+  .introduction {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .description p {
+    font-size: 18px;
+  }
+
+  .benefits-container {
+    flex-wrap: wrap; /* Allow benefits to wrap */
+    width: 90%;
+  }
+
+  .benefit {
+    width: 45%; /* Two per row */
+    margin: 10px auto;
+  }
+
+  .leaderboard table {
+    width: 95%;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .menu a {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .welcome {
+    margin: 100px 20px 0;
+    text-align: center;
+  }
+
+  .introduction {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .introduction .description,
+  .descriptive-image {
+    width: 100%;
+  }
+
+  .descriptive-image img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .benefit {
+    width: 80%; /* Single column on smaller tablets */
+    margin: 10px auto;
+  }
+
+  .add-score button {
+    width: 50%; /* Button adapts */
+  }
+}
+
+@media (max-width: 600px) {
+  .welcome h1 {
+    font-size: 25px;
+  }
+
+  .welcome h3 {
+    font-size: 16px;
+  }
+
+  .links img {
+    width: 120px;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+
+  .benefits-container {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .benefit {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .leaderboard table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .add-score button {
+    width: 70%;
+  }
+}
