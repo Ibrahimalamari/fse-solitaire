@@ -2,7 +2,7 @@
 
 let tableBody =document.querySelector(".tb tbody"); // make sure your table has <tbody>
 
-axios.get("http://localhost/Fse-solitaire/back-end/getscores.php")
+axios.get("../back-end/getscores.php")
   .then(response => {
     const scores = response.data; 
 
@@ -28,7 +28,7 @@ axios.get("http://localhost/Fse-solitaire/back-end/getscores.php")
       tableBody.appendChild(tr);
     });
   })
-  .catch(error => console.error("Error fetching scores:", error));
+ 
 
 
 
